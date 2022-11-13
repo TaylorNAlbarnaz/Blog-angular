@@ -13,6 +13,8 @@ export class MenuBarComponent implements OnInit {
   faGithub = faGithub;
   faBars = faBars;
 
+  burgerOpen: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {

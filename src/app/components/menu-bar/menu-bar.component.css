@@ -69,6 +69,33 @@
     color: #eee;
 }
 
+.menu__right__burger {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    right: 0;
+    background-color: #222;
+    width: 200px;
+    padding: 10px 0;
+    row-gap: 10px;
+    margin-top: 32px;
+}
+
+.menu__right__burger > a {
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid #444;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 2px 30px;
+    transition: 0.4s;
+}
+
+.menu__right__burger > a:hover {
+    background-color: #444;
+}
+
 /* Media Queries */
 
 @media (max-width: 800px) {
