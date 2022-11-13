@@ -8,6 +8,8 @@ import { MenuTitleComponent } from './components/menu-title/menu-title.component
 import { BigCardComponent } from './components/big-card/big-card.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
 
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +20,8 @@ import { SmallCardComponent } from './components/small-card/small-card.component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
