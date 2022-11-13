@@ -41,14 +41,22 @@
 }
 
 .menu__items > a{
-    color: white;
+    color: #aaa;
     text-transform: uppercase;
     text-decoration: none;
 }
 
-.menu__right {
+.menu__items > a:nth-of-type(1) {
+    color: white;
+}
+
+.menu__right__desktop {
     display: flex;
     column-gap: 15px;
+}
+
+.menu__right__mobile {
+    display: none;
 }
 
 .menu__right fa-icon {
@@ -59,4 +67,20 @@
 
 .menu__right fa-icon:hover {
     color: #eee;
+}
+
+/* Media Queries */
+
+@media (max-width: 800px) {
+    .menu__items {
+        display: none;
+    }
+
+    .menu__right__desktop {
+        display: none;
+    }
+
+    .menu__right__mobile {
+        display: block;
+    }
 }
