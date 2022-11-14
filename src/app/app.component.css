@@ -1,3 +1,24 @@
 .container {
-    padding: 0 30px;
+    padding: 0 40px;
+}
+
+.news {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    margin-top: 40px;
+}
+
+.news__left {
+    width: 100%;
+}
+
+.news__right {
+    width: 100%;
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding: 0 20px;
+    }
 }
