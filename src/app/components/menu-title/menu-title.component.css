@@ -1,6 +1,7 @@
 h1 {
     text-transform: uppercase;
-    font-size: 225px;
+    font-size: 18vw;
+    white-space: nowrap;
 }
 
 .wrapper {
