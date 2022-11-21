@@ -4,29 +4,27 @@
             <h3>D</h3>
         </div>
         <nav class="menu__items">
-            <a href="#">Learn</a>
-            <a href="#">Blog</a>
-            <a href="#">Bookmarks</a>
-            <a href="#">Ui Kit</a>
-            <a href="#">Lain Nya</a>
+            <a href="#">Home</a>
+            <a href="#">Test</a>
         </nav>
     </div>
 
     <div class="menu__right">
         <div class="menu__right__desktop">
-            <fa-icon [icon]="faLinkedin" size="xl"></fa-icon>
-            <fa-icon [icon]="faGithub" size="xl"></fa-icon>
+            <a href="https://linkedin.com/in/taylor-albarnaz">
+                <fa-icon [icon]="faLinkedin" size="xl"></fa-icon>
+            </a>
+            <a href="https://github.com/TaylorNAlbarnaz">
+                <fa-icon [icon]="faGithub" size="xl"></fa-icon>
+            </a>
         </div>
         
         <div class="menu__right__mobile">
             <fa-icon [icon]="faBars" size="xl" (click)="burgerOpen = !burgerOpen;"></fa-icon>
 
             <nav *ngIf="burgerOpen" class="menu__right__burger">
-                <a href="#">Learn</a>
-                <a href="#">Blog</a>
-                <a href="#">Bookmarks</a>
-                <a href="#">Ui Kit</a>
-                <a href="#">Lain Nya</a>
+                <a href="#">Home</a>
+                <a href="#">Test</a>
             </nav>
         </div>
     </div>

@@ -12,6 +12,11 @@
     flex: 2;
 }
 
+.photo > img {
+    width: 100%;
+    min-height: 100%;
+}
+
 .content {
     display: flex;
     flex: 5;
