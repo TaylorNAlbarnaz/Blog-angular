@@ -9,3 +9,11 @@ body {
     background-color: #111111;
     color: white;
 }
+
+.container {
+    padding: 0 40px;
+}
+
+a {
+    text-decoration: none;
+}

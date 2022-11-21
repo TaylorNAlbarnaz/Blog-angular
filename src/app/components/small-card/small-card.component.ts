@@ -14,6 +14,9 @@ export class SmallCardComponent implements OnInit {
   
   @Input()
   cardDate: string = "14 de setembro";
+
+  @Input()
+  id:string=""
   
   constructor() { }
 

@@ -1,14 +1,16 @@
 <div class="card">
-    <div class="photo">
-        <img src={{cardPhoto}} alt="Notícia">
-    </div>
-    <div class="content">
-        <div class="title">
-            <h2>{{ cardTitle }}</h2>
+    <a [routerLink]="['content', id]">
+        <div class="photo">
+            <img src={{cardPhoto}} alt="Notícia">
         </div>
+        <div class="content">
+            <div class="title">
+                <h2>{{ cardTitle }}</h2>
+            </div>
 
-        <div class="text">
-            {{ cardDescription }}
+            <div class="text">
+                {{ cardDescription }}
+            </div>
         </div>
-    </div>
+    </a>
 </div>

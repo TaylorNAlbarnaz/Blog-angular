@@ -9,6 +9,8 @@ import { BigCardComponent } from './components/big-card/big-card.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ContentComponent } from './pages/content/content.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     MenuBarComponent,
     MenuTitleComponent,
     BigCardComponent,
-    SmallCardComponent
+    SmallCardComponent,
+    ContentComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
