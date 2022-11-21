@@ -46,10 +46,6 @@
     text-decoration: none;
 }
 
-.menu__items > a:nth-of-type(1) {
-    color: white;
-}
-
 .menu__right__desktop {
     display: flex;
     column-gap: 15px;
@@ -94,6 +90,10 @@
 
 .menu__right__burger > a:hover {
     background-color: #444;
+}
+
+.active {
+    color: white!important;
 }
 
 /* Media Queries */

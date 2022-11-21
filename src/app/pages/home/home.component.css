@@ -23,8 +23,28 @@
     justify-content: space-between;
 }
 
-@media (max-width: 500px) {
+small-card:first-of-type {
+    display: none;
+}
+
+@media (max-width: 800px) {
     .container {
         padding: 0 20px;
+    }
+
+    .news {
+        flex-direction: column;
+    }
+
+    .news__left {
+        display: none;
+    }
+
+    .news__right {
+        gap: 20px;
+    }
+
+    small-card:first-of-type {
+        display: block;
     }
 }

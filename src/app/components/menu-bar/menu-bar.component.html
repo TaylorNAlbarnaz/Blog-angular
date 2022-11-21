@@ -4,8 +4,8 @@
             <h3>D</h3>
         </div>
         <nav class="menu__items">
-            <a [routerLink]="['']">Home</a>
-            <a [routerLink]="['content']">Test</a>
+            <a [routerLink]="['']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">Home</a>
+            <a [routerLink]="['content']" [routerLinkActive]="['active']">Article</a>
         </nav>
     </div>
 
@@ -23,8 +23,8 @@
             <fa-icon [icon]="faBars" size="xl" (click)="burgerOpen = !burgerOpen;"></fa-icon>
 
             <nav *ngIf="burgerOpen" class="menu__right__burger">
-                <a [routerLink]="['']">Home</a>
-                <a [routerLink]="['content']">Test</a>
+                <a [routerLink]="['']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">Home</a>
+                <a [routerLink]="['content']" [routerLinkActive]="['active']">Article</a>
             </nav>
         </div>
     </div>
