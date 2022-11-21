@@ -10,7 +10,8 @@ a {
     height: 18vh;
     column-gap: 10px;
     cursor: pointer;
-    color: #eee;
+    color: #ddd;
+    transition: 0.4s;
 }
 
 .photo {
@@ -21,6 +22,7 @@ a {
 .photo img {
     width: 100%;
     min-height: 100%;
+    transition: 0.4s;
 }
 
 .content {
@@ -38,4 +40,12 @@ a {
 
 .text {
     font-size: 0.9em;
+}
+
+.wrapper:hover {
+    color: white;
+}
+
+.wrapper:hover img {
+    transform: scale(1.05);
 }

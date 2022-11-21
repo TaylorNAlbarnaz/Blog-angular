@@ -44,6 +44,11 @@
     color: #aaa;
     text-transform: uppercase;
     text-decoration: none;
+    transition: 0.4s;
+}
+
+.menu__items > a:hover {
+    color: #ddd;
 }
 
 .menu__right__desktop {
