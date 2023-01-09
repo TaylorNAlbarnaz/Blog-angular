@@ -1,27 +1,17 @@
-# Blog
+<p align="center">
+  <img src="https://angular.io/assets/images/logos/angular/angular.png"/>
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
+# BlogAngular
 
-## Development server
+Esse projeto foi feito com Angular 14, foi um dos projetos necessários para concluir o bootcamp NTT Data da DIO. Ele consiste no uso de rotas e componentização em Angular para produzir um blog com diferentes páginas, utilizando uma mesma base.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Instalação
 
-## Code scaffolding
+1 - Copie o repositório
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+2 - Abra o projeto com VS Code
 
-## Build
+3 - Certifique-se de ter Angular instalado, ao mínimo na versão 14.2.9
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+4 - Rode o projeto com `ng serve -o`
